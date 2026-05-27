@@ -153,6 +153,11 @@ The ETL layer was engineered using reusable Power Query design patterns focused 
 - Analytical unpivot transformations
 
 ---
+# 🧩 Data Model
+
+![Data Model](/data_model.png)
+
+---
 # 📟 Dashboard Preview
 
 ![Dashboard Screenshot](/PBI_dashboard.png)
