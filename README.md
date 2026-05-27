@@ -1,4 +1,4 @@
-![Cover Image](/cover_image.png)
+![Cover Image](/cover_Image.png)
 
 > Enterprise-grade operational analytics platform built using Power BI for FMCG-3PL Quality Assurance operations
 
