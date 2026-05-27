@@ -73,6 +73,7 @@ DE_Projects_QCD_Analytics_Enterprise_PBI_Digital_Transformation/
 │    └── Post_Deployment_Issues.xlsx
 │
 ├── README.MD
+├── .gitignore
 └── LICENSE.MD
 ```
 ---
