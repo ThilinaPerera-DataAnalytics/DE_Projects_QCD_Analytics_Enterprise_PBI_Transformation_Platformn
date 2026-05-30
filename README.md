@@ -2,8 +2,14 @@
 
 > Enterprise-grade operational analytics platform built using Power BI for FMCG-3PL Quality Assurance operations
 
-<p style="color: orange; font-size: 16px; font-style: italic">Disclaimer..❗ </br>
+<p style="color: red; font-size: 16px; font-style: italic">Disclaimer..❗ </br>
 This project is a portfolio representation of a real-world enterprise analytics initiative. Certain implementation details and data elements have been anonymized for confidentiality purposes.</p>
+
+---
+
+# 🚀 Release Evolution
+
+<p style="color: orange; font-size: 16px; font-style: italic; font-weight: bold">QCD Analytics v1.0 — Initial Enterprise Deployment.</p>
 
 ---
 
@@ -160,7 +166,7 @@ The ETL layer was engineered using reusable Power Query design patterns focused 
 ---
 # 📟 Dashboard Preview
 
-![Dashboard Screenshot](/PBI_dashboard.png)
+![Dashboard Screenshot](/pb_dashboard.png)
 
 >>> 🔐 Data Privacy & Anonymization: No sensitive organizational data is included.
 
@@ -233,6 +239,105 @@ Planned future enhancements include:
     - Python-assisted ETL automation
     - Fabric / Lakehouse exploration
     - CI/CD-oriented BI deployment workflows
+
+---
+
+# 🚀 Release Evolution
+
+<p style="color: orange; font-size: 16px; font-style: italic; font-weight: bold">QCD Analytics v1.1 — Platform Stabilization & Operational Maturity.</p>
+
+---
+![QCDA v1.1: Stabilization & Maturity](/v1.1.png)
+
+---
+Following the initial deployment, the platform progressed from a reporting solution into a production-ready operational analytics platform.
+
+---
+
+### ⚡ Incremental Refresh Implementation
+
+Designed, deployed, and validated Incremental Refresh architecture using:
+
+* RangeStart / RangeEnd parameter framework
+* Historical retention strategy
+* Rolling refresh windows
+* Partition-based processing
+
+| Refresh Type        | Approx. Duration |
+| ------------------- | ---------------- |
+| Initial Refresh     | ~85 minutes      |
+| Incremental Refresh | ~33–45 minutes   |
+
+**Outcome:** Reduced refresh workload, improved scalability, and optimized historical data processing.
+
+---
+
+### 🔄 Multi-Environment Development Lifecycle
+
+Established a structured promotion workflow:
+
+```text
+DEV → TEST → PROD
+```
+
+Environment Structure:
+
+* **DEV** → Personal development environment (Personal Laptop to avoid IT policies, authorization constraints and potential security risks)
+* **TEST** → Dedicated validation workspace
+* **PROD** → Operational Quality Control workspace
+
+This provides a lightweight deployment pipeline model within Power BI Pro licensing constraints.
+
+---
+
+### 🧹 Technical Debt Remediation
+
+Completed architecture cleanup initiatives:
+
+* Sample File architecture redesign
+* Explicit Archive-folder schema sourcing
+* Legacy connection removal
+* Obsolete source cleanup
+* Standardized data source inventory
+
+**Outcome:** Improved maintainability, reduced migration risk, and strengthened long-term platform governance.
+
+---
+
+### 🏗️ Platform Capability Snapshot
+
+Current platform capabilities include:
+
+    ✅ Parameterized source architecture
+    ✅ Archive / Current ingestion strategy
+    ✅ Automated cloud refresh
+    ✅ Incremental refresh
+    ✅ Multi-environment promotion workflow
+    ✅ Technical debt remediation
+    ✅ Production Power BI App deployment
+
+---
+
+### 📈 Release Impact
+
+This release marks the evolution of QCD Analytics from a centralized reporting solution into a scalable operational analytics platform with automated refresh infrastructure, governance improvements, and production-grade deployment practices.
+
+---
+
+## 🔭 Next Planned Milestones
+
+### Version 1.2 — PostgreSQL Migration
+
+* Centralized database architecture
+* Reduced file-based dependencies
+* Improved scalability and maintainability
+
+### Version 2.0 — Data Warehouse Foundation
+
+* Dimensional modeling
+* Analytics engineering workflows
+* Medallion architecture concepts
+* Enterprise data platform evolution
 
 
 ---
