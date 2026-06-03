@@ -316,33 +316,43 @@ Current platform capabilities include:
     ✅ Technical debt remediation
     ✅ Production Power BI App deployment
 
----
-
-### 📈 Release Impact
-
-This release marks the evolution of QCD Analytics from a centralized reporting solution into a scalable operational analytics platform with automated refresh infrastructure, governance improvements, and production-grade deployment practices.
 
 ---
 
 ## 🔭 Next Planned Milestones
 
-### Version 1.2 — PostgreSQL Migration
+### Version 1.2 — Oracle Application Platform
 
-* Centralized database architecture
-* Reduced file-based dependencies
-* Improved scalability and maintainability
+* Oracle Database Free, ORDS & Oracle APEX
+* Operational data capture applications
+* Inspection and workflow management
+* Digital process transformation
 
-### Version 2.0 — Data Warehouse Foundation
+### Version 2.0 — Oracle Data Platform Foundation
 
-* Dimensional modeling
+* Bronze and Gold schema architecture
+* Business rules and reporting views
+* Centralized operational data platform
+* Scalable reporting foundation
+
+### Version 2.1 — Power BI Oracle Integration
+
+* Oracle connectivity
+* Dataset migration from file-based architecture
+* Simplified Power Query transformations
+* Data validation and reconciliation
+
+### Version 3.0 — Enterprise Analytics Evolution
+
+* Star schema preparation
+* Data warehouse foundations
 * Analytics engineering workflows
-* Medallion architecture concepts
-* Enterprise data platform evolution
+* Advanced operational analytics
 
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author/ BI Developer
 **Thilina Perera | Data with TP**
 ```
 📌 Data Science/ Data Analytics D-Technosavant
