@@ -318,38 +318,6 @@ Current platform capabilities include:
 
 ---
 
-## 🔭 Next Planned Milestones
-
-### Version 1.2 — Oracle Application Platform
-
-* Oracle Database Free, ORDS & Oracle APEX
-* Operational data capture applications
-* Inspection and workflow management
-* Digital process transformation
-
-### Version 2.0 — Oracle Data Platform Foundation
-
-* Bronze and Gold schema architecture
-* Business rules and reporting views
-* Centralized operational data platform
-* Scalable reporting foundation
-
-### Version 2.1 — Power BI Oracle Integration
-
-* Oracle connectivity
-* Dataset migration from file-based architecture
-* Simplified Power Query transformations
-* Data validation and reconciliation
-
-### Version 3.0 — Enterprise Analytics Evolution
-
-* Star schema preparation
-* Data warehouse foundations
-* Analytics engineering workflows
-* Advanced operational analytics
-
----
-
 # 🚀 Release Evolution
 
 <p style="color: orange; font-size: 16px; font-style: italic; font-weight: bold">QCD Analytics v1.2 — Oracle Application Platform Prototype</p>
@@ -519,7 +487,7 @@ This release establishes the foundation for operational data capture, business-r
 ```
 ---
 
-# Next Planned Milestones
+#🔭 Next Planned Milestones
 
 ## Version 2.0 — Oracle Data Platform Foundation
 - Establish dedicated corporate Oracle development environment
